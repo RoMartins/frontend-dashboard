@@ -31,33 +31,31 @@ A aplicação permite:
 
 - Node.js 18+
 - pnpm (recomendado)
+- rodar a api em:
+  ```bash
+  git clone https://github.com/RoMartins/api-loja.git
+
+  ```
 
 ## 🛠️ Instalação
 
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/seu-usuario/seu-projeto-frontend.git
    cd seu-projeto-frontend
    ```
-
-### Passos para executar
-
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/RoMartins/frontend-dashboard.git
-   cd client-dashboard-ts
-   ```
-
-````
 
 2. **Instale as dependências**
    ```bash
    pnpm install
    # ou
    npm install
+   ```
+
 ````
 
-3. **Execute o servidor de desenvolvimento**
+1. **Execute o servidor de desenvolvimento**
    ```bash
    pnpm run dev
    # ou
@@ -86,3 +84,4 @@ src/
 ├── App.css             # Estilos globais
 └── main.tsx            # Ponto de entrada
 ```
+````
